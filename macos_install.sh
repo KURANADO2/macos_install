@@ -1,10 +1,15 @@
 #!/bin/bash
 
-# Change the default shell to zsh
-chsh -s /bin/zsh
+# Enable Terminal Proxy
+export http_proxy=http://127.0.0.1:1087
+export https_proxy=http://127.0.0.1:1087
+
+git config --global http.postBuffer 524288000
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jing/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Software Install
 # iTerm2
@@ -14,13 +19,13 @@ brew install iterm2
 brew install tmux
 # Powerlevel10K
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 # Oh My Tmux
 cd
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
-# Hammerspoon
+# Hammerspoon config
 curl -fsSL https://raw.githubusercontent.com/KURANADO2/hammerspoon-kuranado/main/install.sh | sh
 # neovim
 brew install neovim
@@ -34,15 +39,13 @@ brew install wget
 brew install autojump
 # fzf
 brew install fzf
-# Git
-brew install git
 git config --global user.name "Xinling Jing"
 git config --global user.email "jingxinling1024@163.com"
 # lazygit
 brew install jesseduffield/lazygit/lazygit
 # svn
 brew install svn
-# Node.js
+# node.js
 brew install node
 # htop
 brew install htop-osx
@@ -56,14 +59,18 @@ brew install tree
 brew install tldr
 # sshpass
 brew install sshpass
-# bat
-brew install bat
 # telnet
 brew install telnet
 # you-get
 brew install you-get
 # gnu-sed
 brew install gnu-sed
+# lrzsz
+brew install lrzsz
+# bat
+brew install bat
+# exa
+brew install exa
 
 # Programming Language
 # Lua
@@ -177,3 +184,43 @@ defaults write com.apple.dock autohide-time-modifier -float 0.3;killall Dock
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
+# Manual Installed Software
+# ShadowsocksX-NG
+# WeChat
+# Jetbrains Toolbox
+    # IDEA
+    # PyCharm
+    # DataGrip
+    # WebStorm
+# Chrome
+# FeiShu
+# Obsidian
+# Hammerspoon
+# Alfred 5
+    # Youdao Translate
+# Mos
+# Wechat Read
+# BaiduNetdisk
+# IINA
+# Wireshark
+# WPS Office
+# Postman
+# OpenVPN
+# ossbrowser
+# cosbrowser
+# Maven
+# SougouInput
+
+# File Backup
+# ~/Tmp
+# ~/Downloads
+# ~/Sync
+# sql sync
+
+# remote KVM server
+# K8S
+# Nacos * 2
+# Redis Cluster
+# Zookeeper + Kafka Cluster
+# MySQL * 2
+# ElasticSearch Cluster
