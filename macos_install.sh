@@ -5,11 +5,16 @@ export http_proxy=http://127.0.0.1:1087
 export https_proxy=http://127.0.0.1:1087
 
 git config --global http.postBuffer 524288000
+git config --global user.name "Xinling Jing"
+git config --global user.email "jingxinling1024@163.com"
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jing/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# node.js
+brew install node
 
 # Software Install
 # iTerm2
@@ -33,20 +38,33 @@ brew install neovim
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 # neovim config
 git clone git@github.com:KURANADO2/neovim-config.git --depth=1 ~/.config/nvim
+# nvim-telescope dependencies
+brew install ripgrep
+npm install -g fd-find
+# nvim formatting releated
+brew install stylua
+pnpm i -D prettier eslint
+rustup component add rustfmt
+# nvim-markdown-preview dependencies
+brew install pandoc
+npm install -g live-server
+# nvim Input method switch
+brew tap daipeihust/tap && brew install im-select
+# nvim python recognition
+python3 -m pip install --user --upgrade pynvim
+# nvim rust analyzer
+brew install rust-analyzer
 # wget
 brew install wget
 # autojump
 brew install autojump
 # fzf
 brew install fzf
-git config --global user.name "Xinling Jing"
-git config --global user.email "jingxinling1024@163.com"
+/opt/homebrew/opt/fzf/install
 # lazygit
 brew install jesseduffield/lazygit/lazygit
 # svn
 brew install svn
-# node.js
-brew install node
 # htop
 brew install htop-osx
 # neofetch
@@ -58,7 +76,7 @@ brew install tree
 # tldr
 brew install tldr
 # sshpass
-brew install sshpass
+brew install hudochenkov/sshpass/sshpass
 # telnet
 brew install telnet
 # you-get
