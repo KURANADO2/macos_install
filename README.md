@@ -2,7 +2,7 @@ Mac 常用软件安装及配置，适用于干净的系统
 
 ## Command Line Tools
 
-因为某些命令执行完成后会要求额外执行其他命令或要求手动输入密码，所以下面的命令不建议当作 Shell 脚本一键执行，建议手动执行
+因为某些命令执行完成后会要求额外执行其他命令或要求手动输入密码，所以下面的命令不建议当作 Shell 脚本一键执行，建议手动依次执行
 
 ```bash
 # Enable Terminal Proxy
@@ -14,6 +14,8 @@ git config --global http.postBuffer 524288000
 git config --global user.name "Xinling Jing"
 git config --global user.email "jingxinling1024@163.com"
 git config --global core.editor "nvim"
+# 解决 Git 中文乱码问题
+git config --global core.quotepath false
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
