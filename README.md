@@ -31,14 +31,15 @@ brew install iterm2
 # Command Line Tools
 # Tmux
 brew install tmux
-# Powerlevel10K
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 # Oh My Tmux
 cd
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
+# Powerlevel10K
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+# Then you need execute command: 'p10k configure' to configure your terminal prompt style
 # Hammerspoon config
 curl -fsSL https://raw.githubusercontent.com/KURANADO2/hammerspoon-kuranado/main/install.sh | sh
 # neovim
