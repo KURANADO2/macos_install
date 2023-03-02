@@ -162,8 +162,10 @@ alias k='kubectl'
 alias kcd='kubectl config set-context $(kubectl config current-context) --namespace'
 alias kp='kubectl get pods'
 alias kl='kubectl logs'
-alias klf='kubectl logs -f'
+# alias klf='kubectl logs -f'
+alias klf='kubectl logs -f --tail=10 --selector'
 alias kd='kubectl describe pod'
+alias ke='kubectl exec -it'
 
 # Docker
 alias d='docker'
