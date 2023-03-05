@@ -157,14 +157,20 @@ alias lg='lazygit'
 alias vim='nvim'
 
 # K8S
-alias k='kubectl'
 # 用于切换上下文配置的默认命名空间
 alias kcd='kubectl config set-context $(kubectl config current-context) --namespace'
-alias kp='kubectl get pods'
+alias k='kubectl'
+alias kn='kubectl get nodes -o wide'
+alias kns='kubectl get namespaces -o wide'
+alias kd='kubectl get deployments -o wide'
+alias kp='kubectl get pods -o wide'
+alias ks='kubectl get services -o wide'
+alias kc='kubectl get configmaps -o wide'
+alias kpv='kubectl get pv -o wide'
+alias kpvc='kubectl get pvc -o wide'
 alias kl='kubectl logs'
-# alias klf='kubectl logs -f'
 alias klf='kubectl logs -f --tail=10 --selector'
-alias kd='kubectl describe pod'
+alias kdp='kubectl describe pod'
 alias ke='kubectl exec -it'
 
 # Docker
