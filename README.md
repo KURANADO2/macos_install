@@ -171,6 +171,8 @@ alias kpvc='kubectl get pvc -o wide'
 alias kl='kubectl logs'
 alias klf='kubectl logs -f --tail=10 --selector'
 alias kdp='kubectl describe pod'
+alias kdpv='kubectl describe pv'
+alias kdpvc='kubectl describe pvc'
 alias ke='kubectl exec -it'
 
 # Docker
