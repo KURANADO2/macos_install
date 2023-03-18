@@ -105,6 +105,8 @@ brew install lrzsz
 brew install bat
 # exa
 brew install exa
+# mysql-client
+brew install mysql-client
 
 # Programming Language
 # Lua
@@ -210,8 +212,11 @@ export GO_HOME='/usr/local/go'
 # Rust
 export RUST_HOME='/Users/jing/.cargo'
 
+# mysql-client
+export MYSQL_CLIENT_HOME='/opt/homebrew/opt/mysql-client'
+
 # PATH
-export PATH=$PATH:$M2_HOME/bin:$JAVA_HOME/bin:$GO_HOME/bin:$RUST_HOME/bin
+export PATH=$PATH:$M2_HOME/bin:$JAVA_HOME/bin:$GO_HOME/bin:$RUST_HOME/bin:$MYSQL_CLIENT_HOME/bin
 
 EOF
 ```
