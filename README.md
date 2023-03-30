@@ -109,6 +109,10 @@ brew install exa
 brew install mysql-client
 # aicommits
 npm install -g aicommits
+# Set the OPENAI_KEY so aicommits can use it:
+# aicommits config set OPENAI_KEY=<your token>
+# In the Git repository you want to install the hook in:
+# aicommits hook install
 
 # Programming Language
 # Lua
