@@ -107,6 +107,8 @@ brew install bat
 brew install exa
 # mysql-client
 brew install mysql-client
+# aicommits
+npm install -g aicommits
 
 # Programming Language
 # Lua
