@@ -299,6 +299,7 @@ defaults write com.jetbrains.rubymine ApplePressAndHoldEnabled -bool false
 - Maven
 - SougouInput
 - VNC Viewer
+- MacZip
 
 ## File Backup
 
