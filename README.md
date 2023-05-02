@@ -140,7 +140,7 @@ alias ta='tmux a -t'
 alias g='git'
 alias ginit='git init'
 alias ga='git add'
-alias gs='git status'
+alias gs='git status -s'
 alias gc='git commit'
 alias gl='git log --graph'
 alias gt='git tag -a'
@@ -193,9 +193,15 @@ alias dpa='docker ps -a'
 
 # Shadowsocks
 # Enable Terminal Proxy
-alias pon='export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;'
+# alias pon='export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;'
 # Disable Terminal Proxy
-alias poff='unset http_proxy; unset https_proxy;'
+# alias poff='unset http_proxy; unset https_proxy;'
+
+# ClashX
+# Enable Terminal Proxy
+alias pon='export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890'
+# Disable Terminal Proxy
+alias poff='unset https_proxy; unset http_proxy;'
 
 # gsed
 alias sed='gsed'
