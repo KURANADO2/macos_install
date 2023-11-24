@@ -229,6 +229,8 @@ export RUST_HOME='/Users/jing/.cargo'
 
 # mysql-client
 export MYSQL_CLIENT_HOME='/opt/homebrew/opt/mysql-client'
+# Prompt
+export MYSQL_PS1="\u@\h [\d]> "
 
 # PATH
 export PATH=$PATH:$M2_HOME/bin:$JAVA_HOME/bin:$GO_HOME/bin:$RUST_HOME/bin:$MYSQL_CLIENT_HOME/bin
