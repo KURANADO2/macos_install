@@ -282,6 +282,7 @@ defaults write com.jetbrains.rubymine ApplePressAndHoldEnabled -bool false
 ## Manual Installed Software
 
 - ShadowsocksX-NG
+- ClashX Pro
 - WeChat
 - Jetbrains Toolbox
     - IDEA
@@ -308,6 +309,8 @@ defaults write com.jetbrains.rubymine ApplePressAndHoldEnabled -bool false
 - SougouInput
 - VNC Viewer
 - MacZip
+- Microsoft Remote Desktop
+- Another Redis Desktop Manager
 
 ## File Backup
 
