@@ -77,6 +77,12 @@ ln -sf ~/Code/GitHub/dotfiles/nvim nvim
 # IdeaVim
 ln -sf ~/Code/GitHub/dotfiles/IdeaVim/.ideavimrc .ideavimrc
 
+# Rust
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
+# tokei
+cargo install tokei
+
 # wget
 brew install wget
 # autojump
@@ -207,3 +213,7 @@ defaults write com.jetbrains.rubymine ApplePressAndHoldEnabled -bool false
 - Microsoft Office
 - MuseScore
 - 剪映
+- Language
+    - Java
+    - Rust
+    - Go
