@@ -80,8 +80,11 @@ ln -sf ~/Code/GitHub/dotfiles/IdeaVim/.ideavimrc .ideavimrc
 # Rust
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
-# tokei
+# tokei Count your code, quickly.
 cargo install tokei
+
+# oha HTTP Load Generator
+cargo install oha
 
 # wget
 brew install wget
