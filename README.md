@@ -130,6 +130,8 @@ brew install bat
 brew install exa
 # mysql-client
 brew install mysql-client
+# keycastr
+brew install --cask keycastr
 # aicommits
 npm install -g aicommits
 # pandoc
