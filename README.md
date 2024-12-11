@@ -136,6 +136,8 @@ brew install --cask keycastr
 npm install -g aicommits
 # pandoc
 brew install pandoc
+# Luarocks
+brew install luarocks
 
 # Programming Language
 # Lua
