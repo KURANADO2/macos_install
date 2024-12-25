@@ -127,7 +127,9 @@ brew install lrzsz
 # bat
 brew install bat
 # exa
-brew install exa
+# brew install exa
+# eza
+cargo install eza
 # mysql-client
 brew install mysql-client
 # keycastr
@@ -138,6 +140,8 @@ npm install -g aicommits
 brew install pandoc
 # Luarocks
 brew install luarocks
+# yazi
+brew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide imagemagick font-symbols-only-nerd-font
 
 # Programming Language
 # Lua
