@@ -47,9 +47,13 @@ ln -sf ~/.tmux/.tmux.conf ~/.tmux.conf
 ln -sf ~/Code/GitHub/dotfiles/tmux/.tmux.conf.local ~/.tmux.conf.local
 
 # Powerlevel10K
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+# git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+# echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 # Then you need execute command: 'p10k configure' to configure your terminal prompt style
+# Starship
+curl -sS https://starship.rs/install.sh | sh
+# Then put this line to your ~/.zshrc
+eval "$(starship init zsh)"
 
 # Hammerspoon config
 curl -fsSL https://raw.githubusercontent.com/KURANADO2/hammerspoon-kuranado/main/install.sh | sh
@@ -198,16 +202,16 @@ defaults write com.jetbrains.rubymine ApplePressAndHoldEnabled -bool false
 - ClashX Pro
 - WeChat
 - Jetbrains Toolbox
-    - IDEA
-    - PyCharm
-    - DataGrip
-    - WebStorm
+  - IDEA
+  - PyCharm
+  - DataGrip
+  - WebStorm
 - Chrome
 - FeiShu
 - Obsidian
 - Hammerspoon
 - Alfred 5
-    - Youdao Translate
+  - Youdao Translate
 - Mos
 - Wechat Read
 - BaiduNetdisk
@@ -226,6 +230,6 @@ defaults write com.jetbrains.rubymine ApplePressAndHoldEnabled -bool false
 - MuseScore
 - 剪映
 - Language
-    - Java
-    - Rust
-    - Go
+  - Java
+  - Rust
+  - Go
