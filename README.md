@@ -148,8 +148,6 @@ brew install luarocks
 brew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide imagemagick font-symbols-only-nerd-font
 # cmake
 brew install cmake
-# sshfs
-brew install sshfs
 
 # Programming Language
 # Lua
