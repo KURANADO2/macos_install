@@ -148,6 +148,9 @@ brew install luarocks
 brew install yazi ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide imagemagick font-symbols-only-nerd-font
 # cmake
 brew install cmake
+# sshfs
+brew install --cask macfuse
+brew install gromgit/fuse/sshfs-mac
 
 # Programming Language
 # Lua
