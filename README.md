@@ -134,7 +134,7 @@ brew install bat
 # brew install exa
 # eza
 cargo install eza
-# mysql-client
+# mysql-client(It contains mysql and mysqldump bin binary)
 brew install mysql-client
 # keycastr
 brew install --cask keycastr
@@ -151,6 +151,10 @@ brew install cmake
 # sshfs
 brew install --cask macfuse
 brew install gromgit/fuse/sshfs-mac
+# btop
+brew install btop
+# musicfox
+brew install anhoder/go-musicfox/go-musicfox
 
 # Programming Language
 # Lua
