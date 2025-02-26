@@ -17,6 +17,8 @@ git config --global core.editor "nvim"
 # 解决 Git 中文乱码问题
 git config --global core.quotepath false
 
+mkdir -p ~/Code/GitHub/
+cd ~/Code/GitHub
 # dotfiles
 git clone https://github.com/KURANADO2/dotfiles
 
@@ -27,9 +29,6 @@ ln -sf ~/Code/GitHub/dotfiles/zsh/.zshrc ~/.zshrc
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jing/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# GitHub Repository
-mkdir -p ~/Code/GitHub/
 
 # node.js
 brew install node
@@ -155,6 +154,8 @@ brew install gromgit/fuse/sshfs-mac
 brew install btop
 # musicfox
 brew install anhoder/go-musicfox/go-musicfox
+# for k8s log
+brew install stern
 
 # Programming Language
 # Lua
