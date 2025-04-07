@@ -156,6 +156,8 @@ brew install btop
 brew install anhoder/go-musicfox/go-musicfox
 # for k8s log
 brew install stern
+# LazySSH
+cargo install lazyssh
 
 # Programming Language
 # Lua
