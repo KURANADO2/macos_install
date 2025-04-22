@@ -66,9 +66,10 @@ brew install wget
 # autojump
 brew install autojump
 # zsh-autosuggestion(If you have been Amazon Q installed, do not use zhs-autosuggestions)
-brew install zsh-autosuggestions
-echo 'source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
-# Amazon Q, See here: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html
+# brew install zsh-autosuggestions
+# echo 'source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
+# Amazon Q, https://github.com/aws/amazon-q-developer-cli
+brew install amazon-q
 # zsh-syntax-highlighting
 brew install zsh-syntax-highlighting
 echo 'source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >>~/.zshrc
