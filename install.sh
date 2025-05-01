@@ -63,8 +63,6 @@ cargo install tokei
 cargo install oha
 # wget
 brew install wget
-# autojump
-brew install autojump
 # zsh-autosuggestion(If you have been Amazon Q installed, do not use zhs-autosuggestions)
 # brew install zsh-autosuggestions
 # echo 'source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
