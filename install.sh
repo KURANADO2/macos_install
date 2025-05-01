@@ -43,7 +43,7 @@ ln -sf ~/Code/GitHub/dotfiles/starship/starship.toml ~/.config/starship.toml
 # curl -fsSL https://raw.githubusercontent.com/KURANADO2/hammerspoon-kuranado/main/install.sh | sh
 ln -sf ~/Code/GitHub/dotfiles/hammerspoon ~/.hammerspoon
 # Vim
-ln -sf ~/Code/GitHub/dotfiles/Vim/.vimrc .vimrc
+ln -sf ~/Code/GitHub/dotfiles/vim/.vimrc ~/.vimrc
 # Neovim
 brew install neovim
 # nvim-telescope dependencies
