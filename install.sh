@@ -125,6 +125,8 @@ brew install anhoder/go-musicfox/go-musicfox
 brew install stern
 # LazySSH
 cargo install lazyssh
+# Lazydocker
+brew install jesseduffield/lazydocker/lazydocker
 # Lua
 curl -R -O http://www.lua.org/ftp/lua-5.3.0.tar.gz
 tar zxf lua-5.3.0.tar.gz
