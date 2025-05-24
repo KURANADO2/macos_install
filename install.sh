@@ -133,6 +133,8 @@ tar zxf lua-5.3.0.tar.gz
 cd lua-5.3.0
 make macosx test
 make install
+# pyenv
+brew install pyenv
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
