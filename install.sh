@@ -125,6 +125,8 @@ brew install anhoder/go-musicfox/go-musicfox
 brew install stern
 # LazySSH
 cargo install lazyssh
+# sql-param
+cargo install sql-param
 # Lazydocker
 brew install jesseduffield/lazydocker/lazydocker
 # Lua
