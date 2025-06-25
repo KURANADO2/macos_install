@@ -137,6 +137,8 @@ make macosx test
 make install
 # pyenv
 brew install pyenv
+# urlencode https://github.com/dead10ck/urlencode
+cargo install urlencode
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
