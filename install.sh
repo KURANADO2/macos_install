@@ -139,6 +139,10 @@ make install
 brew install pyenv
 # urlencode https://github.com/dead10ck/urlencode
 cargo install urlencode
+# nmap
+brew install nmap
+# volta
+curl https://get.volta.sh | bash
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
