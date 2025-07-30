@@ -143,6 +143,8 @@ cargo install urlencode
 brew install nmap
 # volta
 curl https://get.volta.sh | bash
+# zenta
+curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
