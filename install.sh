@@ -145,6 +145,8 @@ brew install nmap
 curl https://get.volta.sh | bash
 # zenta
 curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash
+# groovy
+brew install groovy
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
