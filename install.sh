@@ -147,6 +147,10 @@ curl https://get.volta.sh | bash
 curl -fsSL https://raw.githubusercontent.com/e6a5/zenta/main/install.sh | bash
 # groovy
 brew install groovy
+# ngrok
+brew install ngrok
+# input-source-pro https://github.com/runjuu/InputSourcePro
+brew install --cask input-source-pro
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
