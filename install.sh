@@ -151,6 +151,8 @@ brew install groovy
 brew install ngrok
 # input-source-pro https://github.com/runjuu/InputSourcePro
 brew install --cask input-source-pro
+# Youtube video download
+brew install yt-dlp
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
