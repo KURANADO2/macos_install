@@ -153,6 +153,11 @@ brew install ngrok
 brew install --cask input-source-pro
 # Youtube video download
 brew install yt-dlp
+# Codex
+brew install codex
+# Cluade Code
+curl -fsSL https://claude.ai/install.sh | bash
+# CC Switch
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
