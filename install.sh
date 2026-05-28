@@ -157,7 +157,16 @@ brew install yt-dlp
 brew install codex
 # Cluade Code
 curl -fsSL https://claude.ai/install.sh | bash
-# CC Switch
+# CC Switch https://github.com/farion1231/cc-switch
+# OpenSpec
+npm install -g @fission-ai/openspec@latest
+# Superpowers
+# # Mole Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal. https://github.com/tw93/mole
+brew install mole
+# bun
+curl -fsSL https://bun.sh/install | bash
+# uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
