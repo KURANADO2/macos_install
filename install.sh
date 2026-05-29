@@ -167,6 +167,8 @@ brew install mole
 curl -fsSL https://bun.sh/install | bash
 # uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
+# codexBar
+# https://github.com/steipete/CodexBar/releases
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
