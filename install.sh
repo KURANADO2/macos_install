@@ -161,6 +161,8 @@ curl -fsSL https://claude.ai/install.sh | bash
 # OpenSpec
 npm install -g @fission-ai/openspec@latest
 # Superpowers
+# CodeGraph https://github.com/colbymchenry/codegraph
+npm i -g @colbymchenry/codegraph
 # # Mole Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal. https://github.com/tw93/mole
 brew install mole
 # bun
