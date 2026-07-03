@@ -171,6 +171,8 @@ curl -fsSL https://bun.sh/install | bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 # codexBar
 # https://github.com/steipete/CodexBar/releases
+# arduino-cli
+brew install arduino-cli
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
