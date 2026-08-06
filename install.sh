@@ -90,7 +90,7 @@ brew install tldr
 brew install hudochenkov/sshpass/sshpass
 # telnet
 brew install telnet
-# you-get
+# you-get 优先使用 yt-dlp 代替，you-get 已落伍
 brew install you-get
 # gnu-sed
 brew install gnu-sed
@@ -173,6 +173,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # https://github.com/steipete/CodexBar/releases
 # arduino-cli
 brew install arduino-cli
+# background-music https://github.com/kyleneideck/BackgroundMusic?utm_source=chatgpt.com
+brew install --cask background-music
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
