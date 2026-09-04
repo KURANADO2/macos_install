@@ -175,6 +175,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 brew install arduino-cli
 # background-music https://github.com/kyleneideck/BackgroundMusic?utm_source=chatgpt.com
 brew install --cask background-music
+# Java LSP (Eclipse JDT.LS)
+brew install jdtls
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
