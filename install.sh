@@ -47,10 +47,11 @@ ln -sf ~/Code/GitHub/dotfiles/vim/.vimrc ~/.vimrc
 # Neovim
 brew install neovim
 # nvim-telescope dependencies
-brew install ripgrep
-npm install -g fd-find
+brew install ripgrep fd
 # nvim Input method switch
-brew tap daipeihust/tap && brew install im-select
+# macism(替代 im-select:im-select 只有 Intel 架构版且第三方源已被 Homebrew 信任策略拦截)
+# https://github.com/laishulu/macism
+curl -sL -o /opt/homebrew/bin/macism https://github.com/laishulu/macism/releases/latest/download/macism-arm64 && chmod +x /opt/homebrew/bin/macism
 # live-server
 npm install -g live-server
 # LazyVim
