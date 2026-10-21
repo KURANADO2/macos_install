@@ -178,6 +178,8 @@ brew install arduino-cli
 brew install --cask background-music
 # Java LSP (Eclipse JDT.LS)
 brew install jdtls
+# GitHub CLI
+brew install gh
 
 # System Config
 # Show "Anywhere" option under "Allow apps downloaded from:"
